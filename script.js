@@ -7,9 +7,9 @@ const checkPalindrome = () => {
     alert("Please input a value");
   }
   else{
-    const string = inputElement.value.replace(/[^0-9a-z]/gi, '');
-    const reversedString = string.split("").reverse().join("");
-    if(reversedString.toUpperCase() === string.toUpperCase()){
+    const strippedString = inputElement.value.replace(/[^0-9a-z]/gi, '');
+    const reversedString = strippedString.split("").reverse().join("");
+    if(reversedString.toUpperCase() === strippedString.toUpperCase()){
       result.innerText = inputElement.value + " is a palindrome";
     }
     else{
