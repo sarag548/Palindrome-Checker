@@ -1,0 +1,105 @@
+*{
+  background-color: #6897bb;
+  margin: 0px;
+}
+h1{
+  text-align: center; 
+  color: white;
+  margin-bottom: 20px;
+}
+h2{
+  text-align: center;
+  margin-bottom: 5px;
+  color: black;
+}
+button{
+  margin-top: 10px;
+  width: 100px;
+  height: 30px;
+  background-color: #08335a;
+  font-size: 20px;
+  margin-left: 20%;
+  color: white;
+}
+#check{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  height: 350px;
+  border-radius: 50%;
+  width: 500px;
+}
+input{
+  text-align: center;
+  width: 100px;
+  height: 40px;
+  color: white;
+}
+#result{
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  background-color: #08335a;
+}
+p{
+  color: white;
+  font-size: 40px;
+}
+
+input{
+  font-size: 20px;
+  width: 200px;
+}
+
+#B-C{
+  display: flex;
+}
+
+#B{
+  margin-left: 30%
+}
+
+#C{
+  margin-left: 30%;
+}
+#D-E{
+  display: flex;
+}
+
+#D{
+  margin-left: 15%;
+}
+
+#E{
+  margin-left: 60%;
+}
+
+#F-G{
+  display: flex;
+  justify-content: space-between;
+  margin: 0px;
+}
+
+#H-I{
+  display: flex;;
+}
+
+#H{
+  margin-left: 15%
+}
+
+#I{
+  margin-left: 20%;
+}
+
+#J-K{
+  display: flex;
+}
+
+#J{
+  margin-left: 30%
+}
+
+#K{
+  margin-left: 32%;
+}
